@@ -1,0 +1,72 @@
+.card{
+    width: 250px;
+    height: auto;
+    /* border-top: 4px solid brown; */
+    cursor: pointer;
+    transition: .3s ease-in;
+    /* background-color: black; */
+}
+.viewall{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: rgb(55, 37, 218); */
+    padding: 60px 20px;
+    transition: .3s;
+}
+/* .link:hover{
+    background-color: brown;
+} */
+.icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.body_part{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.body_part p{
+    border: 2px solid rgb(55, 37, 218);
+    padding: 5px 10px;
+    background-color: rgb(55, 37, 218);
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+}
+
+.exercise_title{
+    padding: 15px 15px;
+}
+
+.card:hover{
+    -webkit-box-shadow: 6px 16px 36px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 16px 36px -8px rgba(0,0,0,0.75);
+    box-shadow: 6px 16px 36px -8px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+
+/* MediaQueries */
+
+@media (max-width : 680px) {
+    .card{
+        width: 250px;
+        height: auto;
+    }
+}
